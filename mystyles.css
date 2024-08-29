@@ -1,11 +1,10 @@
-h1 {
+#header {
     color:rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 3em; 
+    font-family:'Times New Roman', Times, serif; 
     font-style: italic;
-    line-height: 2em;
+    line-height: 3em;
 }
 
 h3 {
@@ -30,3 +29,11 @@ h6 {
     color:rgb(254, 254, 255)
 }
 
+#importantPlace{
+    color: rgb(29, 187, 8);
+    font-weight: bold;
+}
+
+h4{
+    color:rgb(0, 0, 0);
+}
