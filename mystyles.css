@@ -61,6 +61,36 @@ nav a:visited
 }
 
 
+table
+{
+    border:solid  2px black;
+    background-color:white ;
+    border-collapse: collapse;
+}
+
+tr, td
+{
+    border:solid 2px black;
+    padding: 5 px;
+    width: 100 px;
+    text-align: center;
+}
+
+caption
+{
+    caption-side: bottom;
+    color: white;
+    font-weight: bold;
+    margin: 5 px;
+}
+
+tr:hover
+{
+    color: red;
+}
+
+
+
 
 
 
