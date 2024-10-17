@@ -37,3 +37,65 @@ h6 {
 h4{
     color:rgb(0, 0, 0);
 }
+
+nav
+{
+    background-color: white;
+    line-height: 200%;
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 40px;
+}
+
+nav a:link 
+{
+    color:white;
+}
+
+nav a:visited
+{
+    color:black;
+}
+
+
+table
+{
+    border:solid  2px black;
+    background-color:white ;
+    border-collapse: collapse;
+}
+
+tr, td
+{
+    border:solid 2px black;
+    padding: 5 px;
+    width: 100 px;
+    text-align: center;
+}
+
+caption
+{
+    caption-side: bottom;
+    color: white;
+    font-weight: bold;
+    margin: 5 px;
+}
+
+tr:hover
+{
+    color: red;
+}
+
+iframe
+{
+    width:600;
+    height:600px;
+    border: 0px;
+}
+
+
+
+
