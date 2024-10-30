@@ -1,15 +1,19 @@
 #header {
     color:rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
+    background-color: red;
     text-align: center;
     font-family:'Times New Roman', Times, serif; 
     font-style: italic;
     line-height: 3em;
+    padding: 20px;
+    margin:30px ;
+    border: dotted white thick;
 }
 
 h3 {
-    color:rgb(255, 255, 255);
+    color:red;
     font-family:'Times New Roman', Times, serif;
+    clear: left;
 }
 
 body {
@@ -19,23 +23,29 @@ body {
 p {
     color:rgb(255, 255, 255);
     font-family:'Times New Roman', Times, serif;
+    margin: 10px;
+    color:red;
 }
+
 ul {
-    color:rgb(255, 255, 255);
+    color:red;
     font-family:'Times New Roman', Times, serif;
 }
 
-h6 {
-    color:rgb(254, 254, 255)
+h6 
+{
+    
+    color:red
 }
 
 #importantPlace{
-    color: rgb(29, 187, 8);
+    color: white;
     font-weight: bold;
 }
 
 h4{
-    color:rgb(0, 0, 0);
+    color:red;
+    font: bolder;
 }
 
 nav
@@ -50,9 +60,10 @@ nav li
     padding-right: 40px;
 }
 
-nav a:link 
+nav a:link
 {
     color:white;
+    
 }
 
 nav a:visited
@@ -91,11 +102,19 @@ tr:hover
 
 iframe
 {
-    width:600;
-    height:600px;
+    width: 700px;;
+    height:700px;
     border: 0px;
 }
 
+nav a:hover
+{
+    color:red;
+}
 
+img
+{
+    float: left;
+}
 
 
